@@ -15,12 +15,13 @@ npm install --save lwh-ui-second
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'lwh-ui-second'
+import {Header,Footer} from 'lwh-ui-second'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <Header />
+      <Footer />
     )
   }
 }
