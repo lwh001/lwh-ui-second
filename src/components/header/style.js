@@ -11,7 +11,7 @@ export const WraperHeader = styled.div`
     align-items: center;
     display: flex;
     margin: 0;
-    background:pink;
+    background:green;
     border: 0;
     outline: 0;
     font-size: 100%;
