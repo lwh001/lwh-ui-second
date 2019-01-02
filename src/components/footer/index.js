@@ -5,7 +5,7 @@ import {
     DefaultIcon,
     TargetLink
 } from "./style";
-import {HomeIcon,DestoryIcon,CarIcon,MineIcon,Global} from "../../assets/icon/iconfont.js";
+import {HomeIcon,DestoryIcon,CarIcon,MineIcon,GlobalStyle} from "../../assets/icon/iconfont.js";
 class Footer extends Component{
     constructor(props){
         super()
@@ -25,8 +25,10 @@ class Footer extends Component{
             "color":"red"
         }
         return(
+            <div>
+                <GlobalStyle />>
             <Footers>
-                <Global />
+                
                 <FooterDiv>
                     {
                         this.state.arr.map((x,index)=>{
@@ -61,6 +63,7 @@ class Footer extends Component{
                     </DefaultIcon> */}
                 </FooterDiv>
             </Footers>
+            </div>
         )
     }
 }
