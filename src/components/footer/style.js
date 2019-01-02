@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link} from "react-router-dom";
 
 export const Footers = styled.div`
-background: pink;
+background: red;
 position: fixed;
 bottom: 0;
 width: 375px;
