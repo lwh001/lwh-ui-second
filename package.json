@@ -1,7 +1,7 @@
 {
   "name": "lwh-ui-second",
-  "version": "1.0.6",
-  "description": "1.0.6",
+  "version": "1.0.7",
+  "description": "1.0.7",
   "author": "lwh001",
   "license": "MIT",
   "repository": "lwh001/lwh-ui-second",
@@ -63,6 +63,7 @@
     "dist"
   ],
   "dependencies": {
-    "ajv": "^6.0.0"
+    "ajv": "^6.0.0",
+    "styled-components": "^4.1.1"
   }
 }
